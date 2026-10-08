@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - research.qmd
+    - publications.qmd
+
+website:
+  title: "Research & Publications"
+  navbar:
+    title: false
+    background: light
+    collapse: true
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+  page-footer:
+    center: "Made with [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme: [morph, styles.scss]
+    toc: false
+    anchor-sections: false
+
+# Static website: don't run code accidentally embedded in QMD.
+execute:
+  enabled: false

@@ -1,0 +1,25 @@
+/*-- scss:defaults --*/
+// Morph provides the main palette and visual language. Keep overrides minimal.
+$headings-font-weight: 600;
+
+/*-- scss:rules --*/
+h1, h2, h3 {
+  letter-spacing: -0.025em;
+}
+
+main.content p,
+main.content li {
+  line-height: 1.7;
+}
+
+.navbar {
+  box-shadow: none;
+}
+
+a {
+  text-underline-offset: 0.18em;
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: clamp(1.8rem, 7vw, 2.4rem); }
+}

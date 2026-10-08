@@ -1,0 +1,25 @@
+# PUBLIC INFORMATION ONLY.
+# This file is loaded as document metadata by index.qmd.
+# Edit these placeholders before the first GitHub Pages deployment.
+title: "Lucas Fournier"
+profile:
+  role: "Doctoral researcher"
+  affiliation: "Conservatoire National des Arts et Métiers de Paris (CNAM)"
+
+# Native Quarto Trestles layout, including its image and social links.
+about:
+  template: trestles
+  image: assets/profile-abstract.svg
+  image-alt: "Abstract illustration of connected points and curves"
+  image-width: "15em"
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:lucas.a.fournier@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/lucasafournier
+
+# Optional: add only APPROVED public links here (ORCID, Scholar, lab...).
+# To use a portrait, replace the image path above with assets/portrait.jpg.

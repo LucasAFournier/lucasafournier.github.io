@@ -1,0 +1,10 @@
+---
+title: "Research"
+description: "Research interests and current directions"
+---
+
+- Interpretable machine learning and explainable AI
+- Knowledge graphs and structured representations
+- Rule extraction from incomplete data
+
+<!-- Keep this page deliberately short. Add projects and talks only when useful. -->

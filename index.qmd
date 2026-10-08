@@ -1,0 +1,14 @@
+---
+metadata-files:
+  - profile.yml
+---
+
+**{{< meta profile.role >}}** · {{< meta profile.affiliation >}}
+
+I am a PhD student at the Conservatoire national des arts et métiers (CNAM), working at the intersection of artificial intelligence, machine learning, and knowledge representation.
+
+My research focuses on extracting interpretable knowledge from complex and incomplete data, with particular interest in knowledge graphs and decision-support systems.
+
+Previously, I studied mathematics and artificial intelligence at École normale supérieure de Lyon.
+
+This website collects a short [research overview](research.qmd) and my [publications](publications.qmd).

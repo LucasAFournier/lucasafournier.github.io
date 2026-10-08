@@ -1,0 +1,13 @@
+---
+title: "Publications"
+description: "Publications and preprints"
+bibliography: publications.bib
+# Once publications.bib contains approved public entries, uncomment:
+# nocite: |
+#   @*
+---
+
+Publications and preprints will be listed here when available.
+
+<!-- When you add publications, enable nocite above and replace this sentence.
+     Only copy entries selected for public release from Zotero. -->
