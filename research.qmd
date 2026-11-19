@@ -4,35 +4,23 @@ title: "Research"
 
 Historical knowledge graphs connect people, institutions, roles and events recorded in documentary sources. My initial thesis proposal asks how to discover explicit or latent rules in these graphs and assess their confidence while accounting for uncertain identities, imprecise dates and missing evidence.
 
-The proposed historical focus includes career trajectories, access to offices, co-optation and relationships between university membership and ecclesiastical positions. These are topics for investigation rather than established findings of my research.
-
-The research direction and methods remain under development.
-
 ## Initial thesis title
 
-**English translation:** Neuro-symbolic rule extraction for governance and careers at the medieval University of Paris from a prosopographical knowledge graph.
+**Neuro-symbolic rule extraction for governance and careers at the medieval University of Paris from a prosopographical knowledge graph.**
 
-This is the initial thesis title; the eventual research direction is still developing.
 
 ## Proposed methods
 
-These methods appear in the initial thesis proposal. They are candidate approaches, not an adopted architecture, completed implementation or demonstrated result.
-
 - **Neural candidate generation:** graph embeddings and graph neural networks to explore patterns, suggest missing relations or generate candidate rules.
-- **Symbolic rule extraction:** inductive logic programming and Markov logic networks as possible ways to formalize and assess candidate rules.
+- **Symbolic rule extraction:** inductive logic programming and Markov logic networks to formalize and assess candidate rules.
 - **Historical assessment:** historian feedback to examine the meaning, documentary support and exceptions of proposed rules.
 - **Uncertainty and time:** contextual confidence assessments that consider source quality, estimated completeness and imprecise temporal information.
-- **Textual evidence:** language models are mentioned as a possible means of exploiting source texts; their use is not established.
 
 ## Research interests
 
-- Interpretable machine learning and explainable AI
+- Neuro-symbolism, interpretable machine learning and explainable AI
 - Knowledge graphs and structured representations
-- Rule extraction from incomplete data
-- Neuro-symbolic artificial intelligence
-- Uncertainty, provenance and temporal information
-- Digital humanities and historical data
-- Prosopography and medieval university careers
+- Rule extraction from incomplete and uncertain data
 
 ## Supervision
 
