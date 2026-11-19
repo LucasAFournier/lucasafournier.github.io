@@ -1,10 +1,13 @@
 # PUBLIC INFORMATION ONLY.
 # This file is loaded as document metadata by index.qmd.
-# Edit these placeholders before the first GitHub Pages deployment.
+# Keep profile details aligned with approved public information.
 title: "Lucas Fournier"
 profile:
-  role: "Doctoral researcher"
-  affiliation: "Conservatoire National des Arts et Métiers de Paris (CNAM)"
+  role: "PhD researcher"
+  affiliation: "Conservatoire national des arts et métiers (Cnam)"
+  laboratory: "CEDRIC, Cnam"
+  team: "ISID - Information and Decision Systems Engineering"
+  phd-start-date: "1 October 2026"
 
 # Native Quarto Trestles layout, including its image and social links.
 about:
