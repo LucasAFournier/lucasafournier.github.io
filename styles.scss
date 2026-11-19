@@ -22,4 +22,6 @@ a {
 
 @media (max-width: 768px) {
   h1 { font-size: clamp(1.8rem, 7vw, 2.4rem); }
+
+  #supervision th:nth-child(2) { width: 36%; }
 }
