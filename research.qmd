@@ -1,9 +1,6 @@
 ---
 title: "Research"
-description: "Research interests and current directions"
 ---
-
-## Research overview
 
 Historical knowledge graphs connect people, institutions, roles and events recorded in documentary sources. My initial thesis proposal asks how to discover explicit or latent rules in these graphs and assess their confidence while accounting for uncertain identities, imprecise dates and missing evidence.
 
@@ -41,6 +38,6 @@ These methods appear in the initial thesis proposal. They are candidate approach
 
 | Role | Name | Affiliation |
 | --- | --- | --- |
-| Thesis director | Cédric du Mouza | CEDRIC, Cnam |
-| Supervisor | Stéphane Lamassé | LAMOP, Université Paris 1 Panthéon-Sorbonne |
-| Supervisor | Camelia Constantin | LIP6, Sorbonne Université |
+| Thesis director | [Cédric du Mouza](https://cedric.cnam.fr/~dumouza/) | CEDRIC, Cnam |
+| Supervisor | [Stéphane Lamassé](https://www.pantheonsorbonne.fr/page-perso/stephane.lamasse%40) | LAMOP, Université Paris 1 Panthéon-Sorbonne |
+| Supervisor | [Camelia Constantin](https://sites.google.com/view/cameliaconstantin/home) | LIP6, Sorbonne Université |
