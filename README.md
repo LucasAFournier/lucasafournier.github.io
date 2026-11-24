@@ -18,7 +18,11 @@ A small Quarto site with a **Trestles** homepage, **Morph** theme, three public 
 ## Everyday use
 
 - Edit page content in `.qmd`; edit homepage identity and profile links in `profile.yml`.
-- Change site navigation or theme in `_quarto.yml` and typography in `styles.scss`.
+- Change site navigation or theme in `_quarto.yml`. Morph supplies the palette,
+  typography and component styling. `styles.scss` only darkens body text for
+  readability and disables remote web fonts.
+- The homepage uses Quarto's Trestles template, a native thesis callout and the
+  bundled Bootstrap grid/card classes. It has no custom layout or component CSS.
 - If you have Quarto installed locally, run `quarto preview` to view changes and `quarto render` to build.
 - The `Build and validate` job renders each pull request without deployment. Only pushes to `main` can deploy; protect that branch before allowing agents to make changes.
 - Coding agents should obey `AGENTS.md`, use branches, and create PRs you review before merging.
@@ -73,7 +77,7 @@ profile.yml                   # Approved public homepage metadata
 index.qmd                     # Native Trestles About homepage
 research.qmd                  # Research interests
 publications.qmd / .bib       # Curated publications
-styles.scss                   # Small typography tweaks
+styles.scss                   # Morph text contrast and local-font settings
 assets/profile-abstract.svg   # Generic replaceable artwork
 AGENTS.md                     # Agent editing, preservation & privacy rules
 scripts/check_site.py         # CI placeholder, page & link checks

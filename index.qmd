@@ -1,15 +1,14 @@
 ---
 metadata-files:
   - profile.yml
+page-layout: full
 ---
 
 ::: {#profile-intro}
 
-::: {.profile-role}
 **{{< meta profile.role >}}** · {{< meta profile.affiliation >}}
-:::
 
-::: {.profile-lead}
+::: {.lead}
 
 I am a PhD student at the Conservatoire national des arts et métiers (CNAM), working at the intersection of artificial intelligence, machine learning, and knowledge representation.
 
@@ -21,13 +20,11 @@ My research focuses on extracting interpretable knowledge from complex and incom
 
 :::
 
-::: {.thesis-panel}
+::: {.callout-note appearance="simple" icon=false}
 
 ## Initial thesis title
 
-::: {.thesis-title}
-Neuro-symbolic rule extraction for governance and careers at the medieval University of Paris from a prosopographical knowledge graph.
-:::
+**Neuro-symbolic rule extraction for governance and careers at the medieval University of Paris from a prosopographical knowledge graph.**
 
 My initial thesis topic explores how neural and symbolic methods might help extract interpretable rules about governance and careers at the medieval University of Paris. A central challenge is to assess what such rules mean when the underlying historical evidence is incomplete, ambiguous or contradictory. I am interested in connecting computational patterns with explanations that historians can assess in their documentary and historical context.
 
@@ -35,10 +32,11 @@ My initial thesis topic explores how neural and symbolic methods might help extr
 
 ## Supervision
 
-::: {.supervision-grid}
+::: {.grid}
 
-::: {.supervisor}
-::: {.supervisor-role}
+::: {.g-col-12 .g-col-lg-4 .card}
+::: {.card-body}
+::: {.small .mb-2}
 Thesis co-director
 :::
 
@@ -46,9 +44,11 @@ Thesis co-director
 
 CEDRIC, Cnam
 :::
+:::
 
-::: {.supervisor}
-::: {.supervisor-role}
+::: {.g-col-12 .g-col-lg-4 .card}
+::: {.card-body}
+::: {.small .mb-2}
 Thesis co-director
 :::
 
@@ -56,9 +56,11 @@ Thesis co-director
 
 LAMOP, Université Paris 1 Panthéon-Sorbonne
 :::
+:::
 
-::: {.supervisor}
-::: {.supervisor-role}
+::: {.g-col-12 .g-col-lg-4 .card}
+::: {.card-body}
+::: {.small .mb-2}
 Supervisor
 :::
 
@@ -66,10 +68,11 @@ Supervisor
 
 LIP6, Sorbonne Université
 :::
+:::
 
 :::
 
-::: {.profile-more}
+::: {.border-top .pt-4 .mt-4}
 
 Previously, I studied mathematics and artificial intelligence at École normale supérieure de Lyon.
 
