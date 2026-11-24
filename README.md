@@ -45,8 +45,8 @@ at **390px** wide:
 - Home, Research and Publications navigation works; the mobile menu opens and
   closes. Use **Tab**, **Shift+Tab** and **Enter** to check visible keyboard focus
   and activate links, including Email and GitHub.
-- Research and Publications share the typography and palette, with the research
-  supervision table readable on mobile.
+- Research and Publications share the typography and palette. The supervision
+  details appear on Home only.
 
 Keep screenshots of the desktop and mobile views with the review. Previewing
 does not publish the site; changes still require a human-reviewed pull request.
