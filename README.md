@@ -18,10 +18,42 @@ A small Quarto site with a **Trestles** homepage, **Morph** theme, three public 
 ## Everyday use
 
 - Edit page content in `.qmd`; edit homepage identity and profile links in `profile.yml`.
-- Change site navigation or theme in `_quarto.yml` and typography in `styles.scss`.
+- Change site navigation or theme in `_quarto.yml`. Morph supplies the palette,
+  typography and component styling. `styles.scss` only darkens body text for
+  readability and disables remote web fonts.
+- The homepage uses Quarto's Trestles template, a native thesis callout and the
+  bundled Bootstrap grid/card classes. It has no custom layout or component CSS.
 - If you have Quarto installed locally, run `quarto preview` to view changes and `quarto render` to build.
 - The `Build and validate` job renders each pull request without deployment. Only pushes to `main` can deploy; protect that branch before allowing agents to make changes.
 - Coding agents should obey `AGENTS.md`, use branches, and create PRs you review before merging.
+
+## Visual review before merging
+
+Use the same Quarto version as CI (1.9.38). From the repository root:
+
+```sh
+python scripts/check_site.py --preflight
+quarto render
+python scripts/check_site.py --rendered
+quarto preview --host 127.0.0.1 --port 4200 --no-browser
+```
+
+Open <http://127.0.0.1:4200/>. The preview updates as you edit the source files.
+In your browser's responsive view, check desktop at **1280px** wide and mobile
+at **390px** wide:
+
+- Home shows the profile introduction, complete initial thesis title and all
+  three supervisors with their roles, affiliations and website links.
+- Supervisor cards sit in three columns on desktop and stack on mobile. Text
+  stays readable, with no clipped content or horizontal page scrolling.
+- Home, Research and Publications navigation works; the mobile menu opens and
+  closes. Use **Tab**, **Shift+Tab** and **Enter** to check visible keyboard focus
+  and activate links, including Email and GitHub.
+- Research and Publications share the typography and palette. The supervision
+  details appear on Home only.
+
+Keep screenshots of the desktop and mobile views with the review. Previewing
+does not publish the site; changes still require a human-reviewed pull request.
 
 ## Publications / Zotero
 
@@ -45,7 +77,7 @@ profile.yml                   # Approved public homepage metadata
 index.qmd                     # Native Trestles About homepage
 research.qmd                  # Research interests
 publications.qmd / .bib       # Curated publications
-styles.scss                   # Small typography tweaks
+styles.scss                   # Morph text contrast and local-font settings
 assets/profile-abstract.svg   # Generic replaceable artwork
 AGENTS.md                     # Agent editing, preservation & privacy rules
 scripts/check_site.py         # CI placeholder, page & link checks
