@@ -11,11 +11,12 @@ profile:
 
 # Native Quarto Trestles layout, including its image and social links.
 about:
+  id: profile-intro
   template: trestles
   image: assets/profile-abstract.svg
   image-alt: "Abstract illustration of connected points and curves"
-  image-width: "15em"
-  image-shape: rounded
+  image-width: "12.5em"
+  image-shape: round
   links:
     - icon: envelope
       text: Email

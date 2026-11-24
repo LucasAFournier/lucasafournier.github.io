@@ -23,6 +23,34 @@ A small Quarto site with a **Trestles** homepage, **Morph** theme, three public 
 - The `Build and validate` job renders each pull request without deployment. Only pushes to `main` can deploy; protect that branch before allowing agents to make changes.
 - Coding agents should obey `AGENTS.md`, use branches, and create PRs you review before merging.
 
+## Visual review before merging
+
+Use the same Quarto version as CI (1.9.38). From the repository root:
+
+```sh
+python scripts/check_site.py --preflight
+quarto render
+python scripts/check_site.py --rendered
+quarto preview --host 127.0.0.1 --port 4200 --no-browser
+```
+
+Open <http://127.0.0.1:4200/>. The preview updates as you edit the source files.
+In your browser's responsive view, check desktop at **1280px** wide and mobile
+at **390px** wide:
+
+- Home shows the profile introduction, complete initial thesis title and all
+  three supervisors with their roles, affiliations and website links.
+- Supervisor cards sit in three columns on desktop and stack on mobile. Text
+  stays readable, with no clipped content or horizontal page scrolling.
+- Home, Research and Publications navigation works; the mobile menu opens and
+  closes. Use **Tab**, **Shift+Tab** and **Enter** to check visible keyboard focus
+  and activate links, including Email and GitHub.
+- Research and Publications share the typography and palette, with the research
+  supervision table readable on mobile.
+
+Keep screenshots of the desktop and mobile views with the review. Previewing
+does not publish the site; changes still require a human-reviewed pull request.
+
 ## Publications / Zotero
 
 `publications.bib` is intentionally empty. Once approved public BibTeX entries are present, uncomment `nocite: |` and `@*` in `publications.qmd` and replace the waiting message. Later use Better BibTeX to auto-export **only a curated public collection** into this file on your local machine; that file change is not automatically merged or deployed.

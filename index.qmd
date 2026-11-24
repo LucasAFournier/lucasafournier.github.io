@@ -3,16 +3,76 @@ metadata-files:
   - profile.yml
 ---
 
+::: {#profile-intro}
+
+::: {.profile-role}
 **{{< meta profile.role >}}** · {{< meta profile.affiliation >}}
+:::
+
+::: {.profile-lead}
 
 I am a PhD student at the Conservatoire national des arts et métiers (CNAM), working at the intersection of artificial intelligence, machine learning, and knowledge representation.
+
+:::
 
 I began my PhD at Cnam on {{< meta profile.phd-start-date >}} and belong to the {{< meta profile.team >}} team at the CEDRIC laboratory.
 
 My research focuses on extracting interpretable knowledge from complex and incomplete data, with particular interest in knowledge graphs and decision-support systems.
 
+:::
+
+::: {.thesis-panel}
+
+## Initial thesis title
+
+::: {.thesis-title}
+Neuro-symbolic rule extraction for governance and careers at the medieval University of Paris from a prosopographical knowledge graph.
+:::
+
 My initial thesis topic explores how neural and symbolic methods might help extract interpretable rules about governance and careers at the medieval University of Paris. A central challenge is to assess what such rules mean when the underlying historical evidence is incomplete, ambiguous or contradictory. I am interested in connecting computational patterns with explanations that historians can assess in their documentary and historical context.
+
+:::
+
+## Supervision
+
+::: {.supervision-grid}
+
+::: {.supervisor}
+::: {.supervisor-role}
+Thesis co-director
+:::
+
+### [Cédric du Mouza](https://cedric.cnam.fr/~dumouza/)
+
+CEDRIC, Cnam
+:::
+
+::: {.supervisor}
+::: {.supervisor-role}
+Thesis co-director
+:::
+
+### [Stéphane Lamassé](https://www.pantheonsorbonne.fr/page-perso/stephane.lamasse%40)
+
+LAMOP, Université Paris 1 Panthéon-Sorbonne
+:::
+
+::: {.supervisor}
+::: {.supervisor-role}
+Supervisor
+:::
+
+### [Camelia Constantin](https://sites.google.com/view/cameliaconstantin/home)
+
+LIP6, Sorbonne Université
+:::
+
+:::
+
+::: {.profile-more}
 
 Previously, I studied mathematics and artificial intelligence at École normale supérieure de Lyon.
 
 This website collects a short [research overview](research.qmd) and my [publications](publications.qmd).
+
+:::
