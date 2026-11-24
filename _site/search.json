@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Publications and preprints will be listed here when available."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lucas Fournier",
+    "section": "",
+    "text": "PhD researcher · Conservatoire national des arts et métiers (Cnam)\nI am a PhD student at the Conservatoire national des arts et métiers (CNAM), working at the intersection of artificial intelligence, machine learning, and knowledge representation.\nI began my PhD at Cnam on 1 October 2026 and belong to the ISID - Information and Decision Systems Engineering team at the CEDRIC laboratory.\nMy research focuses on extracting interpretable knowledge from complex and incomplete data, with particular interest in knowledge graphs and decision-support systems.\nMy initial thesis topic explores how neural and symbolic methods might help extract interpretable rules about governance and careers at the medieval University of Paris. A central challenge is to assess what such rules mean when the underlying historical evidence is incomplete, ambiguous or contradictory. I am interested in connecting computational patterns with explanations that historians can assess in their documentary and historical context.\nPreviously, I studied mathematics and artificial intelligence at École normale supérieure de Lyon.\nThis website collects a short research overview and my publications."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Historical knowledge graphs connect people, institutions, roles and events recorded in documentary sources. My initial thesis proposal asks how to discover explicit or latent rules in these graphs and assess their confidence while accounting for uncertain identities, imprecise dates and missing evidence.\nThe proposed historical focus includes career trajectories, access to offices, co-optation and relationships between university membership and ecclesiastical positions. These are topics for investigation rather than established findings of my research.\nThe research direction and methods remain under development."
+  },
+  {
+    "objectID": "research.html#initial-thesis-title",
+    "href": "research.html#initial-thesis-title",
+    "title": "Research",
+    "section": "Initial thesis title",
+    "text": "Initial thesis title\nEnglish translation: Neuro-symbolic rule extraction for governance and careers at the medieval University of Paris from a prosopographical knowledge graph.\nThis is the initial thesis title; the eventual research direction is still developing."
+  },
+  {
+    "objectID": "research.html#proposed-methods",
+    "href": "research.html#proposed-methods",
+    "title": "Research",
+    "section": "Proposed methods",
+    "text": "Proposed methods\nThese methods appear in the initial thesis proposal. They are candidate approaches, not an adopted architecture, completed implementation or demonstrated result.\n\nNeural candidate generation: graph embeddings and graph neural networks to explore patterns, suggest missing relations or generate candidate rules.\nSymbolic rule extraction: inductive logic programming and Markov logic networks as possible ways to formalize and assess candidate rules.\nHistorical assessment: historian feedback to examine the meaning, documentary support and exceptions of proposed rules.\nUncertainty and time: contextual confidence assessments that consider source quality, estimated completeness and imprecise temporal information.\nTextual evidence: language models are mentioned as a possible means of exploiting source texts; their use is not established."
+  },
+  {
+    "objectID": "research.html#research-interests",
+    "href": "research.html#research-interests",
+    "title": "Research",
+    "section": "Research interests",
+    "text": "Research interests\n\nInterpretable machine learning and explainable AI\nKnowledge graphs and structured representations\nRule extraction from incomplete data\nNeuro-symbolic artificial intelligence\nUncertainty, provenance and temporal information\nDigital humanities and historical data\nProsopography and medieval university careers"
+  },
+  {
+    "objectID": "research.html#supervision",
+    "href": "research.html#supervision",
+    "title": "Research",
+    "section": "Supervision",
+    "text": "Supervision\n\n\n\nRole\nName\nAffiliation\n\n\n\n\nThesis director\nCédric du Mouza\nCEDRIC, Cnam\n\n\nSupervisor\nStéphane Lamassé\nLAMOP, Université Paris 1 Panthéon-Sorbonne\n\n\nSupervisor\nCamelia Constantin\nLIP6, Sorbonne Université"
+  }
+]

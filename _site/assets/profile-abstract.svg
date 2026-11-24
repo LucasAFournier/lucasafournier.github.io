@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="720" viewBox="0 0 600 720" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract research illustration</title>
+  <desc id="desc">Thin intersecting curves with connected blue, lilac and teal dots on a pale neutral background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9eef8"/>
+      <stop offset="1" stop-color="#f6f8fc"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#697eac"/>
+      <stop offset="1" stop-color="#7d9da8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="720" rx="32" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#stroke)" stroke-width="2" opacity=".48">
+    <path d="M72 497 C158 290 270 172 508 146"/>
+    <path d="M63 578 C216 584 320 482 534 258"/>
+    <path d="M101 173 C193 309 293 392 507 570"/>
+    <path d="M183 626 C248 476 334 331 437 88"/>
+    <path d="M97 391 Q299 261 511 382"/>
+  </g>
+  <g fill="none" stroke="#9cacc7" stroke-width="1" opacity=".25">
+    <circle cx="301" cy="355" r="169"/>
+    <circle cx="301" cy="355" r="226"/>
+    <circle cx="301" cy="355" r="109"/>
+  </g>
+  <g>
+    <circle cx="129" cy="387" r="10" fill="#728bb4"/>
+    <circle cx="195" cy="238" r="7" fill="#82adb4"/>
+    <circle cx="297" cy="355" r="15" fill="#8e9bc2"/>
+    <circle cx="423" cy="164" r="9" fill="#7895ae"/>
+    <circle cx="496" cy="383" r="10" fill="#8eb8b4"/>
+    <circle cx="387" cy="490" r="9" fill="#7d94c4"/>
+    <circle cx="176" cy="583" r="7" fill="#a29dc7"/>
+    <circle cx="474" cy="558" r="7" fill="#93a3b6"/>
+  </g>
+</svg>
