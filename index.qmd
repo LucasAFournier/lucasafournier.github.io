@@ -6,17 +6,17 @@ page-layout: full
 
 ::: {#profile-intro}
 
-**{{< meta profile.role >}}** · {{< meta profile.affiliation >}}
+**{{< meta profile.role >}}** · {{< meta profile.affiliation >}} · Since {{< meta profile.phd-start-date >}}
 
 ::: {.lead}
 
-I am a PhD student at the Conservatoire national des arts et métiers (CNAM), working at the intersection of artificial intelligence, machine learning, and knowledge representation.
+I work at the intersection of artificial intelligence, machine learning, and knowledge representation. My focus is extracting interpretable knowledge from complex data, with a particular interest in decision-support systems.
 
 :::
 
-I began my PhD at Cnam on {{< meta profile.phd-start-date >}} and belong to the {{< meta profile.team >}} team at the CEDRIC laboratory.
+I belong to the {{< meta profile.team >}} team at the CEDRIC laboratory.
 
-My research focuses on extracting interpretable knowledge from complex and incomplete data, with particular interest in knowledge graphs and decision-support systems.
+Previously, I studied mathematics and artificial intelligence at École normale supérieure de Lyon.
 
 :::
 
@@ -26,7 +26,7 @@ My research focuses on extracting interpretable knowledge from complex and incom
 
 **Neuro-symbolic rule extraction for governance and careers at the medieval University of Paris from a prosopographical knowledge graph.**
 
-My initial thesis topic explores how neural and symbolic methods might help extract interpretable rules about governance and careers at the medieval University of Paris. A central challenge is to assess what such rules mean when the underlying historical evidence is incomplete, ambiguous or contradictory. I am interested in connecting computational patterns with explanations that historians can assess in their documentary and historical context.
+A central challenge is to assess what extracted rules mean when the underlying historical evidence is incomplete, ambiguous or contradictory. I am interested in connecting computational patterns with explanations that historians can assess in their documentary and historical context.
 
 :::
 
@@ -69,13 +69,5 @@ Supervisor
 LIP6, Sorbonne Université
 :::
 :::
-
-:::
-
-::: {.border-top .pt-4 .mt-4}
-
-Previously, I studied mathematics and artificial intelligence at École normale supérieure de Lyon.
-
-This website collects a short [research overview](research.qmd) and my [publications](publications.qmd).
 
 :::
