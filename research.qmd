@@ -38,6 +38,6 @@ These methods appear in the initial thesis proposal. They are candidate approach
 
 | Role | Name | Affiliation |
 | --- | --- | --- |
-| Thesis director | [Cédric du Mouza](https://cedric.cnam.fr/~dumouza/) | CEDRIC, Cnam |
-| Supervisor | [Stéphane Lamassé](https://www.pantheonsorbonne.fr/page-perso/stephane.lamasse%40) | LAMOP, Université Paris 1 Panthéon-Sorbonne |
+| Thesis co-director | [Cédric du Mouza](https://cedric.cnam.fr/~dumouza/) | CEDRIC, Cnam |
+| Thesis co-director | [Stéphane Lamassé](https://www.pantheonsorbonne.fr/page-perso/stephane.lamasse%40) | LAMOP, Université Paris 1 Panthéon-Sorbonne |
 | Supervisor | [Camelia Constantin](https://sites.google.com/view/cameliaconstantin/home) | LIP6, Sorbonne Université |
