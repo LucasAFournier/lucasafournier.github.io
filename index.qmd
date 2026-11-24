@@ -22,11 +22,9 @@ Previously, I studied mathematics and artificial intelligence at École normale 
 
 ::: {.callout-note appearance="simple" icon=false}
 
-## Initial thesis title
+## Thesis title
 
 **Neuro-symbolic rule extraction for governance and careers at the medieval University of Paris from a prosopographical knowledge graph.**
-
-A central challenge is to assess what extracted rules mean when the underlying historical evidence is incomplete, ambiguous or contradictory. I am interested in connecting computational patterns with explanations that historians can assess in their documentary and historical context.
 
 :::
 
